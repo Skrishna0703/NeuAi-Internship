@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML document showcasing all common tags">
+    <meta name="author" content="Your Name">
+    <title>All HTML Tags Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table {
+            width: 50%;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>All HTML Tags</h1>
+        <nav>
+            <ul>
+                <li><a href="#text">Text Tags</a></li>
+                <li><a href="#media">Media Tags</a></li>
+                <li><a href="#forms">Form Tags</a></li>
+                <li><a href="#table">Table Tags</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Text Tags -->
+        <section id="text">
+            <h2>Text Tags</h2>
+            <p>This is a paragraph tag.</p>
+            <strong>This text is bold.</strong><br>
+            <em>This text is italicized.</em><br>
+            <mark>This text is highlighted.</mark><br>
+            <del>This text is deleted.</del><br>
+            <ins>This text is inserted.</ins><br>
+            <small>This is small text.</small><br>
+            <blockquote cite="https://example.com">This is a blockquote element.</blockquote>
+            <pre>
+                This is preformatted text.
+                Indentation and line breaks are preserved.
+            </pre>
+        </section>
+
+        <!-- Media Tags -->
+        <section id="media">
+            <h2>Media Tags</h2>
+            <img src="https://via.placeholder.com/150" alt="Placeholder image">
+            <video width="320" height="240" controls>
+                <source src="sample.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <audio controls>
+                <source src="sample.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+        </section>
+
+        <!-- Form Tags -->
+        <section id="forms">
+            <h2>Form Tags</h2>
+            <form action="#" method="post">
+                <label for="text">Text Input:</label>
+                <input type="text" id="text" name="text"><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+
+                <label for="color">Color Picker:</label>
+                <input type="color" id="color" name="color"><br><br>
+
+                <label for="date">Date Picker:</label>
+                <input type="date" id="date" name="date"><br><br>
+
+                <label for="number">Number Input:</label>
+                <input type="number" id="number" name="number"><br><br>
+
+                <fieldset>
+                    <legend>Radio Buttons:</legend>
+                    <input type="radio" id="radio1" name="radio" value="1">
+                    <label for="radio1">Option 1</label><br>
+                    <input type="radio" id="radio2" name="radio" value="2">
+                    <label for="radio2">Option 2</label><br>
+                </fieldset><br>
+
+                <label for="file">File Input:</label>
+                <input type="file" id="file" name="file"><br><br>
+
+                <label for="dropdown">Dropdown:</label>
+                <select id="dropdown" name="dropdown">
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                </select><br><br>
+
+                <textarea name="textarea" id="textarea" rows="4" cols="30">This is a text area.</textarea><br><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+
+        <!-- Table Tags -->
+        <section id="table">
+            <h2>Table Tags</h2>
+            <table>
+                <caption>Sample Table</caption>
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Row 1, Cell 1</td>
+                        <td>Row 1, Cell 2</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2, Cell 1</td>
+                        <td>Row 2, Cell 2</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Footer Row</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+</body>
+</html>
